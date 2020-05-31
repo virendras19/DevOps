@@ -2,7 +2,7 @@ pipeline {
 
   environment {
 
-   registry = “virendras/vys-test10”
+   registry = “virendras/virendras/devopsproject”
 
     registryCredential = 'dockerhub'
 
@@ -12,7 +12,7 @@ pipeline {
 
   agent any
 
-  tools {nodejs "node" }
+  tools {nodejs "nodejs" }
 
   stages {
 
