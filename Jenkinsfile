@@ -2,7 +2,7 @@ pipeline {
 
   environment {
 
-   registry = “virendras/virendras/devopsproject”
+   registry = “virendras/devopsproject”
 
     registryCredential = 'dockerhub'
 
